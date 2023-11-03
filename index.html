@@ -16,13 +16,18 @@
   <p class="p">If you are new to coding and web development, simply deciding where to begin can be a daunting task! A
     good place to start is asking yourself which languages you should learn. However, there are so many languages out
     there that it would be prudent to first find out: what interests you? What are your goals? where you do you want to
-    work and what type of work could you see yourself doing? To get started on your coding journey, fill out the form
+    work and what type of work could you see yourself doing? To get started on your coding journey, fill out the forms
     below to see exactly where you should begin!
   </p>
   <div>
+    <h2>This form will show what languages you should learn based on certain physical characteristics</h2>
     <form>
       <label for="userAge"> What is your age?: </label>
       <input id="userAge" type="text" name="userAge">
+      <label for="hairColor"> What is your hair color?: </label>
+      <input id="hairColor" type="text" name="hairColor">
+      <label for="height"> What is your height? (short, average, or tall) </label>
+      <input id="height" type="text" name="height">
       <button type="submit">Show me the language I should learn!</button>
     </form>
   </div>
@@ -30,6 +35,8 @@
   <div id="age" class="hidden">
     <h2>This is the language for you!!</h2>
     <p> <span id="userAge">________</p>
+    <p> <span id="hairColor">_______</p>
+    <p> <span id="height">_______</p>
   </div>
 </body>
 

@@ -20,7 +20,7 @@
     below to see exactly where you should begin!
   </p>
   <div>
-    <h2>This form will show what languages you should learn based on certain physical characteristics</h2>
+    <h2 class="p">This form will show what languages you should learn based on certain physical characteristics</h2>
     <form>
       <label for="userAge"> What is your age?: </label>
       <input id="userAge" type="text" name="userAge">
@@ -30,13 +30,15 @@
       <input id="height" type="text" name="height">
       <button type="submit">Show me the language I should learn!</button>
     </form>
+    <br />
+    <button type="button" class="hidden" id="reset">Reset</button>
   </div>
 
   <div id="age" class="hidden">
-    <h2>This is the language for you!!</h2>
-    <p> <span id="userAge">________</p>
-    <p> <span id="hairColor">_______</p>
-    <p> <span id="height">_______</p>
+    <h2 class="p">This is the language for you!!</h2>
+    <p class="p"> <span id="userAge">________</p>
+    <p class="p"> <span id="hairColor">_______</p>
+    <p class="p"> <span id="height">_______</p>
   </div>
 </body>
 

@@ -1,11 +1,11 @@
 body {
-  background-image: linear-gradient(rgb(198, 238, 211), rgb(196, 237, 236))
+  background-image: linear-gradient(rgb(198, 238, 211), rgb(81, 235, 233))
 }
 
 .h1 {
   font-style: sans-serif;
   font-weight: bold;
-  color: rgb(8, 71, 73);
+  color: rgb(106, 4, 135);
   text-align: center;
   margin-top: 50px;
 }
@@ -14,10 +14,10 @@ body {
   left: 50%;
   position: relative;
   transform: translate(-50%);
-  border: 10px solid rgb(8, 71, 73);
+  border: 10px solid rgb(106, 4, 135);
   width: 400px;
   margin-top: 20px;
-  margin-bottom: 80px;
+  margin-bottom: 20px;
   padding: 10px;
 }
 
@@ -29,12 +29,11 @@ body {
   font-style: sans-serif;
   font-size: 20px;
   font-weight: bold;
-  color: rgb(8, 71, 73);
-  border: 10px;
+  color: rgb(106, 4, 135);
   width: 1000px;
   margin-top: 10px;
-  margin-bottom: 100px;
-  padding: 50px;
+  margin-bottom: 20px;
+  padding: 10px;
 }
 
 .hidden {

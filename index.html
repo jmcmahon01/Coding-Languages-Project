@@ -21,7 +21,7 @@
   </p>
   <div>
     <h2 class="p">This form will show what languages you should learn based on certain physical characteristics</h2>
-    <form>
+    <form id="form1" action="process_form1.php" method="post">
       <label for="userAge"> What is your age?: </label>
       <input id="userAge" type="text" name="userAge">
       <label for="hairColor"> What is your hair color?: </label>
@@ -33,29 +33,44 @@
     <br />
     <button type="button" class="hidden" id="reset">Reset</button>
   </div>
-  <div>
-    <h2 class="p">This form will determine if you are suited more towards Front End or Back End development</h2>
-    <p>Let's say you and a friend were tasked with a project to make a poster about a difficult
-      problem that was recently on your physics exam. One person should be in charge of doing the math and finding the
-      correct result, and the other would be in charge of displaying all of the information related to the problem and
-      the solution to the problem on the poster. Which task would you prefer to take on?</p>
-    <form class="radio-form">
-      <label>
-        <input type="radio" name="flavor" value="chocolate" checked>
-        Design the poster
-      </label><br />
-      <label>
-        <input type="radio" name="flavor" value="vanilla">
-        Do the math and find the solution
-        <button type="submit">Submit!</button>
-    </form>
+
+
+  <div id="physicalCharacteristics" class="hidden">
+    <h2 class="p">Anyone can learn to code!!!</h2>
+    <p class="p"> <span id="userAge">It doesn't matter how old you are, anyone can learn to code!</p>
+    <p class="p"> <span id="hairColor">It doesn't matter whether or not you even have hair, let alone what color it is.
+        Anyone can learn to code!</p>
+    <p class="p"> <span id="height">Don't listen to Randy Newman, short people both have a reason to live and they can
+        also learn to code!</p>
   </div>
 
-  <div id="age" class="hidden">
-    <h2 class="p">Anyone can learn to code!!!</h2>
-    <p class="p"> <span id="userAge">________</p>
-    <p class="p"> <span id="hairColor">_______</p>
-    <p class="p"> <span id="height">_______</p>
+  <div>
+    <form id="form2" action="process_form2.php" method="post">
+      <label for="age">What is your favorite number?</label>
+      <input id="age" type="number">
+      <button type="submit">Submit!</button>
+    </form>
+
+
+
+    <div id="drinks" class="hidden">
+      <h1 id="birthday-wish"></h1>
+      <h1>JavaScript is the language for you!</h1>
+
+      <h2>Why?</h2>
+      <ul>
+        <li>People of this age generally like JavaScript</li>
+        <li>It is pretty much arbitrary</li>
+        <li>Go ahead and learn it now!</li>
+      </ul>
+
+    </div>
+
+    <div id="under-21" class="hidden">
+      <h1>Python is the Language for you!</h1>
+
+      <p>With your age, I suggest you learn Python</p>
+    </div>
   </div>
 </body>
 

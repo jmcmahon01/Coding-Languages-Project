@@ -28,7 +28,7 @@ code .
 4. Open index.html file with live server
 
 Or access application in web browser at: 
-https://jmcmahon01.github.io/CodingLanguagesProject/
+https://github.com/jmcmahon01/Coding-Languages-Project
 
 
 

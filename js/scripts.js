@@ -8,10 +8,14 @@ window.addEventListener("load", function () {
     const userAge = document.getElementById("userAge").value;
     const hairColor = document.getElementById("hairColor").value;
     const height = document.getElementById("height").value;
+    const favColor = document.getElementById("favColor").value;
+    const favAnimal = document.getElementById("favAnimal").value;
 
     document.querySelector("#age").innerText = userAge;
     document.querySelector("#hair").innerText = hairColor;
     document.querySelector("#shortTall").innerText = height;
+    document.querySelector("#color").innerText = favColor;
+    document.querySelector("#animal").innerText = favAnimal;
 
     physicalCharacteristics.removeAttribute("class");
 
@@ -27,6 +31,8 @@ window.addEventListener("load", function () {
     document.getElementById("userAge").value = null;
     document.getElementById("hairColor").value = null;
     document.getElementById("height").value = null;
+    document.getElementById("favColor").value = null;
+    document.getElementById("favAnimal").value = null;
   });
 });
 

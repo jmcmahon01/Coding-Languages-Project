@@ -36,7 +36,12 @@ body {
   padding: 10px;
 }
 
+.f {
+  font-size: 20px;
+  font-weight: bold;
+  color: rgb(5, 99, 62);
 
+}
 
 .hidden {
   display: none;

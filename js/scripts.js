@@ -29,6 +29,11 @@ window.addEventListener("load", function () {
     cSharp.setAttribute("class", "hidden");
     python.setAttribute("class", "hidden");
     document.getElementById("userAge").value = "";
+    document.getElementById("hairColor").value = null;
+    document.getElementById("height").value = null;
+    document.getElementById("favColor").value = null;
+    document.getElementById("favAnimal").value = null;
+
     resetBtn.setAttribute("class", "hidden");
   });
 });

@@ -21,7 +21,7 @@
   </p>
   <div>
     <h2 class="p">This form will show what languages you should learn based on certain physical characteristics</h2>
-    <form id="form1" action="process_form1.php" method="post">
+    <form>
       <label for="userAge"> What is your age?: </label>
       <input id="userAge" type="text" name="userAge">
       <label for="hairColor"> What is your hair color?: </label>
@@ -37,41 +37,18 @@
 
   <div id="physicalCharacteristics" class="hidden">
     <h2 class="p">Anyone can learn to code!!!</h2>
-    <p class="p"> <span id="userAge">It doesn't matter how old you are, anyone can learn to code!</p>
-    <p class="p"> <span id="hairColor">It doesn't matter whether or not you even have hair, let alone what color it is.
-        Anyone can learn to code!</p>
-    <p class="p"> <span id="height">Don't listen to Randy Newman, short people both have a reason to live and they can
-        also learn to code!</p>
+    <p class="p"> <span id="age"></p>
+    <p class="p"> <span id="hair"></p>
+    <p class="p"> <span id="shortTall"></p>
   </div>
 
-  <div>
-    <form id="form2" action="process_form2.php" method="post">
-      <label for="age">What is your favorite number?</label>
-      <input id="age" type="number">
-      <button type="submit">Submit!</button>
-    </form>
 
 
 
-    <div id="drinks" class="hidden">
-      <h1 id="birthday-wish"></h1>
-      <h1>JavaScript is the language for you!</h1>
 
-      <h2>Why?</h2>
-      <ul>
-        <li>People of this age generally like JavaScript</li>
-        <li>It is pretty much arbitrary</li>
-        <li>Go ahead and learn it now!</li>
-      </ul>
 
-    </div>
 
-    <div id="under-21" class="hidden">
-      <h1>Python is the Language for you!</h1>
 
-      <p>With your age, I suggest you learn Python</p>
-    </div>
-  </div>
 </body>
 
 </html>
